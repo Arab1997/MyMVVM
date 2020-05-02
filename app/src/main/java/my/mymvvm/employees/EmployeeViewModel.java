@@ -55,6 +55,7 @@ public class EmployeeViewModel extends AndroidViewModel {
         new InsertEmployeesTask().execute(employees);
     }
 
+
     private static class InsertEmployeesTask extends AsyncTask<List<Employee>, Void, Void> {
         @SafeVarargs
         @Override
